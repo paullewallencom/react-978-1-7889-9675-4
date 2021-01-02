@@ -1,0 +1,26 @@
+{
+  "name": "webpacktraining",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Mustapha Mekhatria",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
